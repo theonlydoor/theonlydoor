@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-bg {
+    background-image: url(../images/top-bg.jpg);
+    height: 350px;
+    position: relative;
+}
+
+.header-content {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.header-quote {
+	padding-bottom: 0px;
+	color: #ff0000;
+}
+
+.main-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content h1 {
+    padding-bottom: 15px;
+}
+
+.contact-bg {
+    background-image: url(../images/contact-bg.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-bg h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.bottom-padding {
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: #333333;
+    height: 100px;
+}
+
+.footer-text {
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.footer-text a {
+    color: white;
+}
+
+.footer-copyright-text {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.button-colors {
+    color: white;
+    background-color: #1e3b4b;
+    border-color: #1e3b4b;
+}
+
+.button-colors:hover,
+.button-colors:active,
+.button-colors:focus,
+.button-colors:active:hover,
+.button-colors:active:focus {
+    color: white !important;
+    background-color: #377092 !important;
+    border-color: #377092 !important;
+}
+
+.alert-txt {
+    text-align: center;
+}
+
+.scriptureReference {
+	color: #0b33af;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.red-text {
+	color: #ff0000;
+}
+
+.prayer {
+	font-style: italic;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.top-padding {
+	padding-top: 50px;
+}
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
