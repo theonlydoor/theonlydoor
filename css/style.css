@@ -124,6 +124,11 @@ body, html {
     visibility: hidden;
 }
 
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
 @media only screen and (max-device-width: 1024px) {
     .parallax {
       background-attachment: scroll;

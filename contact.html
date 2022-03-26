@@ -33,7 +33,7 @@
 		</div>
 		    <div class="main-content container-fluid">
         <div class="container">
-			<form name="contact" action="success.html" method="POST" data-netlify="true">
+			<form name="contact" action="success.html" method="POST" netlify-honeypot="bot" data-netlify="true">
 				<div class="form-group">
 					<label for="name">Name:</label>
 					<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" />
@@ -45,6 +45,10 @@
 				<div class="form-group">
 					<label for="message">Message:</label>
 					<textarea type="text" class="form-control" id="message" name="message" rows="3"></textarea>
+				</div>
+				<div class="hidden">
+					<label for="bot"></label>
+					<input type="text" class="form-control" id="bot" name="bot" />
 				</div>
 				<button type="submit" class="btn btn-primary">Send</button>
 			</form>
