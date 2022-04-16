@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-				<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151371808-1"></script>
 		<script>
 		window.dataLayer = window.dataLayer || [];
@@ -10,7 +10,7 @@
 
 		gtag('config', 'UA-151371808-1');
 		</script>
-				<title>The Only Door</title>
+		<title>The Only Door</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="Find out how Jesus is the only door">
@@ -26,7 +26,7 @@
 	<body>
 		<div class="parallax header-bg">
 			<div class="header-content">
-				<img src="images/theonlydoor.png" width="325" height="53" />
+				<a href="index.html"><img src="images/theonlydoor.png" width="325" height="53" /></a>
 				<p class="header-quote">I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.</p>
 				<p>- Jesus, John 10:9</p>
 			</div>
@@ -34,7 +34,7 @@
     <div class="main-content container-fluid">
       <div class="container">
 	
-<form name="contact" action="success.html" method="POST" netlify-honeypot="bot" data-netlify="true">
+<form name="contact" action="success.html" method="POST" data-netlify-recaptcha="true" data-netlify="true">
     <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" />
@@ -47,10 +47,7 @@
         <label for="message">Message:</label>
         <textarea type="text" class="form-control" id="message" name="message" rows="3"></textarea>
     </div>
-    <div class="hidden">
-        <label for="bot"></label>
-        <input type="text" class="form-control" id="bot" name="bot" />
-    </div>
+    <div data-netlify-recaptcha="true"></div>
     <button type="submit" class="btn btn-primary">Send</button>
 </form>
 
